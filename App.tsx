@@ -232,7 +232,7 @@ const App: React.FC = () => {
               <h3 className="text-[10px] font-bold text-gray-400 uppercase mb-2">系統日誌存檔</h3>
               <div className="space-y-1">
                 {result.systemLog.map((log, i) => (
-                  <div key={i} className="text-[10px] font-mono text-gray-400 leading-tight">> {log}</div>
+                  <div key={i} className="text-[10px] font-mono text-gray-400 leading-tight">&gt; {log}</div>
                 ))}
               </div>
             </div>
